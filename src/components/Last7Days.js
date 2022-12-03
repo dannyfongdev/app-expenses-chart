@@ -6,9 +6,11 @@ function Last7Days() {
   return (
     <>
       <p className={styles.title}>Spending - Last 7 days</p>
-      {SpendingData.map(data => (
-        <DayBar key={data.day} day={data.day} amount={data.amount} />
+      <div className={styles.flex}>
+      {SpendingData.map((data, index) => (
+        <DayBar key={index} index={index} day={data.day} amount={data.amount} />
       ))}
+      </div>
     </>
   );
 }

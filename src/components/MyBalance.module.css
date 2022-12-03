@@ -2,15 +2,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    background-color: var(--primary-color-1);
+    border-radius: 10px;
+    width: 345px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 22px;
 }
 
 .label {
-  color: aqua;
+  color: var(--neutral-color-2);
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
 .amount {
-    color: purple;
+    color: var(--neutral-color-1);
+    font-size: 22px;
+    font-weight: 700;
 }
 
+img {
+  width:60px;
+}
 
+@media (min-width: 768px) {
+  .container {
+    background-color: blue;
+  }
+}

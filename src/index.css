@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color-1: hsl(10, 79%, 65%);
+  --primary-color-2: hsl(186, 34%, 60%);
+  --neutral-color-4: hsl(25, 47%, 15%);
+  --neutral-color-3: hsl(28, 10%, 53%);
+  --neutral-color-2: hsl(27, 66%, 92%);
+  --neutral-color-1: hsl(33, 100%, 98%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  background-color: var(--neutral-color-2);
+}
+
+@media (min-height: 450px) {
+  .wrapper {
+    height: 100vh;
+    position: relative;
+    display:flex;
+    justify-content: center;
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
