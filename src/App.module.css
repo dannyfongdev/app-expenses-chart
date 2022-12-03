@@ -1,0 +1,10 @@
+.line {
+    margin: 20px 0;
+    border: solid 1px var(--neutral-color-2);
+}
+
+@media (min-width: 450px) {
+    .line {
+        margin: 30px 0;
+    }
+}

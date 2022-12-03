@@ -2,6 +2,7 @@ import MyBalance from "./components/MyBalance";
 import Last7Days from "./components/Last7Days";
 import TotalThisMonth from "./components/TotalThisMonth";
 import DetailsContainer from "./components/DetailsContainer";
+import styles from "./App.module.css"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <MyBalance />
           <DetailsContainer>
             <Last7Days />
+            <hr className={styles.line} />
             <TotalThisMonth />
           </DetailsContainer>
         </div>

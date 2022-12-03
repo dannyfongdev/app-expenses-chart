@@ -3,5 +3,12 @@
   border-radius: 10px;
   width: 345px;
   margin: auto;
-  padding: 20px;
+  padding: 25px 20px;
+}
+
+@media (min-width: 450px) {
+  .container {
+    width: 450px;
+    padding: 40px 30px;
+  }
 }

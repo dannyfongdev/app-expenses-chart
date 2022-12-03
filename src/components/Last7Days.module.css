@@ -1,9 +1,18 @@
 .flex {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .title {
   font-size: 24px;
   font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 450px) {
+  .title {
+    font-size: 2rem;
+  }
 }

@@ -26,8 +26,22 @@ img {
   width:60px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
   .container {
-    background-color: blue;
+    width: 450px;
+    height: 124px;
+    padding: 30px;
+  }
+
+  img {
+    width: 75px;
+  }
+
+  .label {
+    font-size: 18px;
+  }
+
+  .amount {
+    font-size: 30px;
   }
 }
