@@ -4,7 +4,7 @@ function TotalThisMonth() {
   return (
     <div className={styles.container}>
       <div>
-        <p className={styles.label}>Total this Month</p>
+        <p className={styles.label}>Total this month</p>
         <p className={styles.amount}>$478.33</p>
       </div>
       <div>

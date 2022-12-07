@@ -28,9 +28,11 @@ img {
 
 @media (min-width: 450px) {
   .container {
-    width: 450px;
+    border-radius: 20px;
+    width: 540px;
     height: 124px;
     padding: 30px;
+    margin-bottom: 25px;
   }
 
   img {
